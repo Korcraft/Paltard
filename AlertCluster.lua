@@ -4,7 +4,7 @@
 -- once they line up side by side, still centered on it. New alerts only need
 -- adding to PROVIDERS.
 --
--- Unlocked (/paltard unlock, or untick "Lock position"): the anchor shows as a
+-- Unlocked (/pt unlock, or untick "Lock position"): the anchor shows as a
 -- dark square -- drag it to move, mouse wheel over it to resize.
 
 local P = Paltard

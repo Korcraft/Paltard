@@ -126,21 +126,22 @@ events:SetScript("OnEvent", function(_, event, addonName)
 		if P.Seals and P.Seals.Init then P.Seals.Init() end
 		if P.AlertCluster and P.AlertCluster.Init then P.AlertCluster.Init() end
 		if P.Settings and P.Settings.Init then P.Settings.Init() end
-		print(PREFIX .. "loaded. Type |cffffffff/paltard|r for settings.")
+		print(PREFIX .. "loaded. Type |cffffffff/pt|r for settings.")
 	end
 end)
 
 local function printHelp()
 	print(PREFIX .. "commands:")
-	print("  /paltard         - open the settings window")
-	print("  /paltard lock    - lock the seal icon in place")
-	print("  /paltard unlock  - unlock it: drag to move, mouse wheel to resize")
-	print("  /paltard reset   - put it back in its default spot and size")
-	print("  /paltard test    - show a sample seal countdown")
-	print("  /paltard debug   - show what seal tracking has recorded (copy window)")
+	print("  /pt         - open the settings window")
+	print("  /pt lock    - lock the seal icon in place")
+	print("  /pt unlock  - unlock it: drag to move, mouse wheel to resize")
+	print("  /pt reset   - put it back in its default spot and size")
+	print("  /pt test    - show a sample seal countdown")
+	print("  /pt debug   - show what seal tracking has recorded (copy window)")
 end
 
-SLASH_PALTARD1 = "/paltard"
+SLASH_PALTARD1 = "/pt"
+SLASH_PALTARD2 = "/paltard"
 SlashCmdList.PALTARD = function(msg)
 	if not P.active then
 		print(PREFIX .. "only runs on paladins, so it's switched off on this character.")

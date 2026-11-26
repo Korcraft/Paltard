@@ -12,11 +12,11 @@ Not seen: a seal you right-click off or one an enemy dispels - the icon would st
 
 ## Commands
 
-- `/paltard` - settings window (also under Options > AddOns > Paltard)
-- `/paltard unlock` / `/paltard lock` - move and resize the icon frame, or lock it
-- `/paltard reset` - default position and size
-- `/paltard test` - show a sample seal countdown
-- `/paltard debug` - what seal tracking has recorded (copyable window)
+- `/pt` - settings window (also under Options > AddOns > Paltard). `/paltard` works too.
+- `/pt unlock` / `/pt lock` - move and resize the icon frame, or lock it
+- `/pt reset` - default position and size
+- `/pt test` - show a sample seal countdown
+- `/pt debug` - what seal tracking has recorded (copyable window)
 
 ## License
 

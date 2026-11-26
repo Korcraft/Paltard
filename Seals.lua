@@ -78,7 +78,7 @@ local function onCast(spellID)
 	end
 end
 
--- /paltard test: a seal that's just entering its warning window.
+-- /pt test: a seal that's just entering its warning window.
 function P.Seals.Test()
 	local _, icon = spellInfo(TEST_SEAL)
 	current = {
@@ -89,11 +89,11 @@ function P.Seals.Test()
 	}
 	lastEvent = "test countdown started"
 	if not P.db.seals.enabled then
-		print(P.PREFIX .. "the seal countdown is switched off in /paltard, so the test won't show.")
+		print(P.PREFIX .. "the seal countdown is switched off in /pt, so the test won't show.")
 	end
 end
 
--- /paltard debug: what's being tracked, in a copy window.
+-- /pt debug: what's being tracked, in a copy window.
 function P.Seals.Debug()
 	local lines = {}
 	local left = remaining()

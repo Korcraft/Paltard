@@ -1,6 +1,6 @@
 -- Paltard: Settings.lua
 -- One settings page, built twice and kept in sync: in its own window
--- (/paltard) and under Options > AddOns > Paltard -- the same setup as
+-- (/pt) and under Options > AddOns > Paltard -- the same setup as
 -- Huntard, AutoVendor and Wayfinder. Plain widgets (no slider templates),
 -- since template availability varies between clients.
 
